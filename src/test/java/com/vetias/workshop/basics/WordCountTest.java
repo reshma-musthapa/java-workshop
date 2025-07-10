@@ -17,6 +17,7 @@ public class WordCountTest {
     public void testAnotherString() {
         WordCount wordcount = new WordCount();
         int count= wordcount.count("Java is a versatile programming language.");
-        Assertions.assertEquals(6, count);
+        Assertions.assertEquals(6
+        , count);
     }
 }
