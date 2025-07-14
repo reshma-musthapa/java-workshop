@@ -6,19 +6,13 @@ import java.util.Map;
 public class StudentMap {
     public static void main(String[] args) {
         Map<Integer, String> students = new HashMap<>();
+        students.put(1001, "Imanuel");
+        students.put(1002, "Shahul");
+        students.put(1003, "Zammer");
+        students.put(1004, "Santhosh");
         
-            // Adding students to the map
-           students.put(101, "Caleb");
-            students.put(102, "Shahul");
-            students.put(103, "Nowfiya");
-            students.put(104, "Reshma");
-            students.put(105, "Nitha");
-            students.put(106, "Nowrin");
-            System.out.println(students);
-            System.out.println(students.keySet());
-            System.out.println(students.values());
-            
-        
+        System.out.println(students);
+        System.out.println(students.keySet());
+        System.out.println(students.values());
     }
-
 }
